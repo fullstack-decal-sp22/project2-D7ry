@@ -10,8 +10,8 @@ Hint: We need:
       (2) the string value that is shown on the display screen
       (3) the operator (+, x, -, and ÷) that is selected.  */
 
-      let total = ________;
-      let strbuffer = ________;
+      let total = 0;
+      let strbuffer = total;
       let operator = _______;
 
       /*  FUNC DESCRIPTION: Operator calculations. Create the in +, x, -, and ÷ operator calculations. The plus operator is done for you!
@@ -21,6 +21,7 @@ Hint: We need:
           if (operator === "+") {
               total += intBuffer;
           }
+          
           //ADD THE OTHER OPERATORS
       }
 
